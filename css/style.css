@@ -1,3 +1,7 @@
+* {
+  background-color: rgb(229, 229, 236);
+}
+
 header {
   width: 100%;
   height: 50px;
@@ -5,31 +9,66 @@ header {
   color: white;
 }
 
-.icon {
-  height: 40px;
-  width: 40px;
-  padding: 5px;
-  display: inline;
-  float: left;
-}
-
 header nav ul {
-  color: black;
   font-size: small;
   padding: 5px;
+  background-color: green;
 }
 
 header nav ul li {
   margin: 5px;
   text-decoration: none;
   display: inline;
+  font-weight: bold;
+  background-color: green;
 }
 
 a {
   text-decoration: none;
   color: white;
+  background-color: green;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  border: black solid 1px;
+  font-size: large;
+  background-color: bisque;
+}
+
+td {
+  border: black solid 1px;
+  text-align: center;
+  background-color: bisque;
+  padding: 2px;
+  margin: 0;
 }
 
 .float-right {
   float: right;
+}
+
+/*Configures logo/icon to be on left of header with nav links on right*/
+.icon {
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+  display: inline;
+  float: left;
+  background-color: green;
+}
+
+.center {
+  margin: auto;
+}
+
+.flag:hover {
+  cursor: grab;
 }
